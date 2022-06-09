@@ -1,4 +1,13 @@
 {
     "editor.formatOnSave": true,
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "liveServer.settings.port": 127,
+    "liveServer.settings.CustomBrowser" : "chrome",
+    "liveServer.settings.NoBrowser" : false,
+    "liveServer.settings.ignoreFiles" : 
+    [
+        ".vscode/**",
+        "**/*.scss",
+        "**/*.sass"
+    ]
 }
